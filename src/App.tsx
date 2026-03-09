@@ -14,7 +14,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/cloude-guide">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/compare" element={<Compare />} />
